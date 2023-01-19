@@ -2,4 +2,4 @@
 
 Name: Gabrielle Librado
 Student #: 041037233
-Project to complete: Pokedex
+Project to complete: Pokedex.
