@@ -23,8 +23,8 @@ h1 {
 
 
 .item-1, .item-2, .item-3, .item-4, .item-5, .item-6, .item-7, .item-8, .item-9, .item-10, .item-11, .item-12, .item-13, .item-14, .item-15, .item-16, .item-17, .item-18, .item-19, .item-20 {
-    background-color: white; /* sets the background color of each grid item to gray */
-    height: 70px; /* sets the height of each grid item to 50px */
+    background-color: white;
+    height: 70px;
 }
 
 .item-1:hover, .item-2:hover, .item-3:hover, .item-4:hover, .item-5:hover, .item-6:hover, .item-7:hover, .item-8:hover, .item-9:hover, .item-10:hover, .item-11:hover, .item-12:hover, .item-13:hover, .item-14:hover, .item-15:hover, .item-16:hover, .item-17:hover, .item-18:hover, .item-19:hover, .item-20:hover {
