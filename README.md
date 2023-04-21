@@ -48,3 +48,16 @@ Creating the prototype:
         I just adjusted the grid system to be 4x5 to properly fit better for the given screen size
 
 }   
+
+Part:4
+
+    my javascript code first sets the pokeAPI URL for fetching Pokemon data and selects the element for displaying the Pokemon grid. It then creates 20 empty div elements with the class "pokemon" and puts them to the grid.
+    It then uses the fetch API to fetch data from the pokeAPI URL, and uses the response to display the pokemon's name and thumbnail image in the grid. It also adds an event listener to the "Load More" button at the bottom of the webpage that fetches the next 20 pokemon and adds them to the grid.
+
+    I then created a modal element to display the pokemon details, and uses local storage to store a list of caught pokemon. It defines a function to fetch Pokemon data asynchronously, and another function to display the Pokemon data in the grid. The display function uses the getPokemonData function to fetch data for each Pokémon, creates a div element with the Pokémon's name and image, and appends it to the grid. It also adds an event listener to each Pokémon div element that displays the Pokémon's details in the modal popup.
+
+    The modal popup shows the pokemon's image, height, weight, type, and a button to mark it as caught. Ifa user clicks the "caught" button, the name of the pokemon is added to the caught pokemon list stored in local storage, the button is disabled, and the text on the button changes to "Caught!".
+
+    I had to change my css stylesheet to work with the javascript. I realized that creating 20 individual divs to make a grid was unnecesary and that I can just create one from javascript with the PokeAPI.
+
+    .item-1, .item-2, .item-3, .item-4, .item-5, .item-6, .item-7, .item-8, .item-9, .item-10, .item-11, .item-12, .item-13, .item-14, .item-15, .item-16, .item-17, .item-18, .item-19, .item-20  
